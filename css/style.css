@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700");
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box; }          
 
 ul {
   list-style: none;
@@ -267,5 +267,15 @@ p {
   margin-bottom: 0; }
 .year-timeline-list li > ul.role-and-tools {
   margin-bottom: 1em; }
+
+
+@media print {
+  html, body {
+      height: 100%;
+  }
+  .experience-section {
+    height: 100%;
+  }
+}  
 
 /*# sourceMappingURL=style.css.map */
