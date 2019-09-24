@@ -50,6 +50,10 @@ body > header {
 .col-md-4, .col-md-8, .col-md-3, .col-md-9 {
   float: left; }
 
+.skill-circle {
+  max-width: 250px;
+}
+
 .skill-circle .icon {
   font-family: "font-mfizz"; }
 
