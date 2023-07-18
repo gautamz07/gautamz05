@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-BoldItalic.eot');
+    src: url('Tosia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-BoldItalic.woff2') format('woff2'),
+        url('Tosia-BoldItalic.woff') format('woff'),
+        url('Tosia-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-BlackItalic.eot');
+    src: url('Tosia-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-BlackItalic.woff2') format('woff2'),
+        url('Tosia-BlackItalic.woff') format('woff'),
+        url('Tosia-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-DemiBoldItalic.eot');
+    src: url('Tosia-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-DemiBoldItalic.woff2') format('woff2'),
+        url('Tosia-DemiBoldItalic.woff') format('woff'),
+        url('Tosia-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-ExtraBoldItalic.eot');
+    src: url('Tosia-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-ExtraBoldItalic.woff2') format('woff2'),
+        url('Tosia-ExtraBoldItalic.woff') format('woff'),
+        url('Tosia-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-RegularItalic.eot');
+    src: url('Tosia-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-RegularItalic.woff2') format('woff2'),
+        url('Tosia-RegularItalic.woff') format('woff'),
+        url('Tosia-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-LightItalic.eot');
+    src: url('Tosia-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-LightItalic.woff2') format('woff2'),
+        url('Tosia-LightItalic.woff') format('woff'),
+        url('Tosia-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-MediumItalic.eot');
+    src: url('Tosia-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-MediumItalic.woff2') format('woff2'),
+        url('Tosia-MediumItalic.woff') format('woff'),
+        url('Tosia-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-ThinItalic.eot');
+    src: url('Tosia-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-ThinItalic.woff2') format('woff2'),
+        url('Tosia-ThinItalic.woff') format('woff'),
+        url('Tosia-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia UltraThin';
+    src: url('Tosia-UltraThinItalic.eot');
+    src: url('Tosia-UltraThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-UltraThinItalic.woff2') format('woff2'),
+        url('Tosia-UltraThinItalic.woff') format('woff'),
+        url('Tosia-UltraThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-Black.eot');
+    src: url('Tosia-Black.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-Black.woff2') format('woff2'),
+        url('Tosia-Black.woff') format('woff'),
+        url('Tosia-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-Bold.eot');
+    src: url('Tosia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-Bold.woff2') format('woff2'),
+        url('Tosia-Bold.woff') format('woff'),
+        url('Tosia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-DemiBold.eot');
+    src: url('Tosia-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-DemiBold.woff2') format('woff2'),
+        url('Tosia-DemiBold.woff') format('woff'),
+        url('Tosia-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-ExtraBold.eot');
+    src: url('Tosia-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-ExtraBold.woff2') format('woff2'),
+        url('Tosia-ExtraBold.woff') format('woff'),
+        url('Tosia-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-Light.eot');
+    src: url('Tosia-Light.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-Light.woff2') format('woff2'),
+        url('Tosia-Light.woff') format('woff'),
+        url('Tosia-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-Regular.eot');
+    src: url('Tosia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-Regular.woff2') format('woff2'),
+        url('Tosia-Regular.woff') format('woff'),
+        url('Tosia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-Medium.eot');
+    src: url('Tosia-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-Medium.woff2') format('woff2'),
+        url('Tosia-Medium.woff') format('woff'),
+        url('Tosia-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia';
+    src: url('Tosia-Thin.eot');
+    src: url('Tosia-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-Thin.woff2') format('woff2'),
+        url('Tosia-Thin.woff') format('woff'),
+        url('Tosia-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tosia UltraThin';
+    src: url('Tosia-UltraThin.eot');
+    src: url('Tosia-UltraThin.eot?#iefix') format('embedded-opentype'),
+        url('Tosia-UltraThin.woff2') format('woff2'),
+        url('Tosia-UltraThin.woff') format('woff'),
+        url('Tosia-UltraThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

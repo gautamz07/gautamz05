@@ -1,5 +1,220 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700,700i");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700");
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-BoldItalic.eot');
+  src: url('../fonts/Tosia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-BoldItalic.woff') format('woff'),
+      url('../fonts/Tosia-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-BlackItalic.eot');
+  src: url('../fonts/Tosia-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-BlackItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-BlackItalic.woff') format('woff'),
+      url('../fonts/Tosia-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-DemiBoldItalic.eot');
+  src: url('../fonts/Tosia-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-DemiBoldItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-DemiBoldItalic.woff') format('woff'),
+      url('../fonts/Tosia-DemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-ExtraBoldItalic.eot');
+  src: url('../fonts/Tosia-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-ExtraBoldItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-ExtraBoldItalic.woff') format('woff'),
+      url('../fonts/Tosia-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-RegularItalic.eot');
+  src: url('../fonts/Tosia-RegularItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-RegularItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-RegularItalic.woff') format('woff'),
+      url('../fonts/Tosia-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-LightItalic.eot');
+  src: url('../fonts/Tosia-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-LightItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-LightItalic.woff') format('woff'),
+      url('../fonts/Tosia-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-MediumItalic.eot');
+  src: url('../fonts/Tosia-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-MediumItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-MediumItalic.woff') format('woff'),
+      url('../fonts/Tosia-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-ThinItalic.eot');
+  src: url('../fonts/Tosia-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-ThinItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-ThinItalic.woff') format('woff'),
+      url('../fonts/Tosia-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia UltraThin';
+  src: url('../fonts/Tosia-UltraThinItalic.eot');
+  src: url('../fonts/Tosia-UltraThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-UltraThinItalic.woff2') format('woff2'),
+      url('../fonts/Tosia-UltraThinItalic.woff') format('woff'),
+      url('../fonts/Tosia-UltraThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-Black.eot');
+  src: url('../fonts/Tosia-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-Black.woff2') format('woff2'),
+      url('../fonts/Tosia-Black.woff') format('woff'),
+      url('../fonts/Tosia-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-Bold.eot');
+  src: url('../fonts/Tosia-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-Bold.woff2') format('woff2'),
+      url('../fonts/Tosia-Bold.woff') format('woff'),
+      url('../fonts/Tosia-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-DemiBold.eot');
+  src: url('../fonts/Tosia-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-DemiBold.woff2') format('woff2'),
+      url('../fonts/Tosia-DemiBold.woff') format('woff'),
+      url('../fonts/Tosia-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-ExtraBold.eot');
+  src: url('../fonts/Tosia-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-ExtraBold.woff2') format('woff2'),
+      url('../fonts/Tosia-ExtraBold.woff') format('woff'),
+      url('../fonts/Tosia-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-Light.eot');
+  src: url('../fonts/Tosia-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-Light.woff2') format('woff2'),
+      url('../fonts/Tosia-Light.woff') format('woff'),
+      url('../fonts/Tosia-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-Regular.eot');
+  src: url('../fonts/Tosia-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-Regular.woff2') format('woff2'),
+      url('../fonts/Tosia-Regular.woff') format('woff'),
+      url('../fonts/Tosia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-Medium.eot');
+  src: url('../fonts/Tosia-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-Medium.woff2') format('woff2'),
+      url('../fonts/Tosia-Medium.woff') format('woff'),
+      url('../fonts/Tosia-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia';
+  src: url('../fonts/Tosia-Thin.eot');
+  src: url('../fonts/Tosia-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-Thin.woff2') format('woff2'),
+      url('../fonts/Tosia-Thin.woff') format('woff'),
+      url('../fonts/Tosia-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tosia UltraThin';
+  src: url('../fonts/Tosia-UltraThin.eot');
+  src: url('../fonts/Tosia-UltraThin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tosia-UltraThin.woff2') format('woff2'),
+      url('../fonts/Tosia-UltraThin.woff') format('woff'),
+      url('../fonts/Tosia-UltraThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }          
@@ -7,58 +222,16 @@
 ul {
   list-style: none;
   padding: 0;
-  margin: 0; }
-
-body {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-  color: #777;
-  line-height: 1.4; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  font-family: 'Merriweather', serif;
-  color: #000; }
-
-h2, h3, h4, h5, h6 {
-  font-weight: 400; }
-
-h1 {
-  font-size: 3.12em; }
-
-body > section,
-body > div,
-body > header {
-  padding-top: 2em;
-  padding-bottom: 2em; }
-
-.col-md-4 {
-  width: 33.3333334%; }
-
-.col-md-3 {
-  width: 25%; }
-
-.col-md-8 {
-  width: 66.6666666%; }
-
-.col-md-9 {
-  width: 75%; }
-
-.col-md-4, .col-md-8, .col-md-3, .col-md-9 {
-  float: left; }
-
-.skill-circle {
-  max-width: 250px;
+  margin: 0; 
 }
 
-.skill-circle .icon {
-  font-family: "font-mfizz"; }
-
-.skill-circle:before {
-  display: none; }
+body {
+  font-family: 'Tosia';
+  font-size: 16px;
+  color: #2c2c2c;
+  line-height: 1.4; 
+  font-weight: 300;
+}
 
 a,
 a:hover,
@@ -67,215 +240,353 @@ a:active {
   color: #777;
   text-decoration: none;
   -webkit-transition: all .25s;
-  transition: all .25s; }
+  transition: all .25s; 
+}
 
-.section-header {
-  background: #304153;
-  display: inline-block;
-  padding: 0.5em 3em;
-  margin-bottom: 1.5em; }
-  .section-header h2 {
-    color: #fff;
-    margin-bottom: 0;
-    white-space: nowrap; }
-
-p {
-  margin: 0; }
-
-.line-section-header {
-  margin-bottom: 1.88em; }
-
-.line-section-header > h2 {
-  position: relative;
-  color: #fff;
-  background: #16c0f3;
-  display: inline-block;
-  padding: 0.25em 1.25em; }
-  .line-section-header > h2:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: calc(100% + 100px);
-    height: 2px;
-    width: 100vw;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-    background: #16c0f3; }
-
-.dotted__list > li {
-  position: relative;
-  padding-left: 1rem;
-  margin-bottom: 0.25rem; }
-  .dotted__list > li:after {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 0;
-    height: 6px;
-    width: 6px;
-    background: #fff;
-    border-radius: 50%; }
-
-.site-main-intro-header {
-  background: #f3f3f3;
-  padding: 4em 0; }
-  .site-main-intro-header h1 {
-    margin-bottom: 0; }
-  .site-main-intro-header p {
-    font-size: 1.56em; }
-
-.container {
+.page__main {
   max-width: 1170px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+}
 
-.container:before, .container:after {
-  content: '';
-  display: table; }
-.container:after {
-  clear: both; }
+.container {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap; */
+  display: table-row;
+  
+}
 
-.about-me-section .container > div:nth-of-type(2) {
-  padding-left: 30px; }
+.main__contentWrapper,
+.sidebar__contentWrapper {
+  width: 100%;
+  padding: 2rem 1rem;
+  display: table-cell;
+  vertical-align: top;
+}
 
-.about-me-box dl:before, .about-me-box dl:after {
-  content: '';
-  display: table; }
-.about-me-box dl:after {
-  clear: both; }
-.about-me-box dl > dt,
-.about-me-box dl > dd {
-  float: left;
-  margin-bottom: 0.75em; }
-.about-me-box dl > dd {
-  margin-left: 0.62em; }
-.about-me-box dl > dt {
-  clear: both;
-  min-width: 40px; }
+.main__contentWrapper {
+  /* flex-basis: 66.66%; */
+  max-width: 66.66%;
+  min-width: 66.66%;
+}
 
-.about-me-content-box {
-  border-top: 2px solid #16c0f3;
-  border-bottom: 2px solid #16c0f3;
-  padding-top: 2em;
-  padding-bottom: 2em; }
-  .about-me-content-box:before, .about-me-content-box:after {
-    content: '';
-    display: table; }
-  .about-me-content-box:after {
-    clear: both; }
-
-.about-me-content-box .img-wrpr {
-  width: 20%; }
-.about-me-content-box .content-wrpr {
-  width: 80%;
-  padding-left: 2em; }
-.about-me-content-box .img-wrpr, .about-me-content-box .content-wrpr {
-  float: left; }
-.about-me-content-box .content-wrpr > p {
-  font-size: 1.35em; }
-.about-me-content-box .img-wrpr > img {
-  display: block;
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  border-right: 4px solid #16c0f3; }
-
-.experience-section, .achievements-section, .education-section, .more-about-me-section {
-  background: #304153;
+.sidebar__contentWrapper {
+  min-height: 100vh;
   color: #fff;
-  overflow: hidden; }
-  .experience-section h3, .achievements-section h3, .education-section h3, .more-about-me-section h3 {
-    color: #fff; }
+  max-width: 66.66%;
+  min-width: 66.66%;
+  /* flex-basis: 33.33%; */
+  background: rgb(136,153,214);
+  background: linear-gradient(180deg, rgba(136,153,214,1) 0%, rgba(82,101,164,1) 51%, rgba(34,50,105,1) 100%);
+}
 
-.education-section .year-timeline-list li > .header > span {
-  min-width: 120px; }
 
-.year-timeline-list li {
-  padding-left: 1.88em;
-  margin-bottom: 2em;
-  position: relative; }
-.year-timeline-list li:last-child {
-  margin-bottom: 0; }
-.year-timeline-list li:after {
+
+h1,h2,h3,h4,h5,h5 {
+  font-family: 'Tosia';
+  font-weight: 400;
+  color: #171717;
+}
+
+h1 {
+  font-weight: 600;
+  color: #173e8a;
+}
+
+.list__inlineInfo.list__inlineInfo--icon dt {
+  font-size: 0.88rem;
+}
+.list__inlineInfo.list__inlineInfo--icon dd {
+  font-size: 0.88rem;
+}
+
+.list__inlineInfo dt,
+.list__inlineInfo dd {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.list__inlineInfo dd:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.list__inlineInfo a {
+  color: inherit;
+}
+
+.highlighted {
+  /* font-size: 1.15rem; */
+  font-weight: 300;
+}
+
+.highlighted--large {
+  font-size: 1.25rem;
+}
+
+.highlighted--blue {
+  color: #fa7e33;
+}
+
+.main__header {
+  padding: 0 0 2rem 0;
+}
+
+.main__header > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main__header > dl {
+  margin-top: 0.5rem;
+}
+
+.header__primary {
+  font-size: 1.15rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+  text-transform: uppercase;
+  color: #173e8a;
+  margin-top: 0;
+}
+
+.header__primary:after {
+  content: '';
+  height: 1px;
+  position: absolute;
+  top: 100%;
+  left:0;
+  right: 0;
+  background: rgba(44, 44, 44, 0.1);
+}
+
+.sidebar__header {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.sidebar__header:after {
+  background: rgba(255,255,255,0.1);
+}
+
+.section__detailsWrapper {
+  padding: 2rem 0;
+}
+
+.list__inlineTag {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list__inlineTag > li {
+  display: inline-block;
+  padding: 0.2rem;
+  margin-top: 0.75rem;
+  margin-right: 0;
+  padding: 0.15rem 0.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: orange; */
+  border-radius: 5px;
+}
+
+.list__inlineTag > li > i {
+  /* font-size: 0.88rem; */
+  margin-right: 0.3rem;
+  /* display: inline-block; */
+}
+
+.list__inlineTag > li:nth-of-type(1),
+.list__inlineTag > li:nth-of-type(2),
+.list__inlineTag > li:nth-of-type(3),
+.list__inlineTag > li:nth-of-type(4) {
+  margin-top: 0;
+}
+
+.list__inlineTag > li > i,
+.list__inlineTag > li > span {
+  font-size: 0.88rem;
+}
+
+.header__timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.header__timeline h5 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.header__timeline span {
+   /* fn  */
+}
+
+.list__roleInfo {
+  margin-bottom: 1rem;
+}
+
+.list__timeline > li {
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+}
+
+.list__timeline > li:before {
   content: '';
   position: absolute;
-  top: 10px;
   left: 0;
-  height: 10px;
-  width: 10px;
-  background: #fff;
-  border-radius: 50%; }
-.year-timeline-list li > .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-bottom: 1em; }
-.year-timeline-list li > .header > h3 {
-  font-size: 1.25em;
-  font-weight: 300;
-  margin-bottom: 0;
-  margin-top: 0;
-  min-width: 500px;
-  font-weight: 700; }
-.year-timeline-list li > .header > span {
-  background: #16c0f3;
-  padding: 0.15em 0.5em;
-  min-width: 280px;
-  white-space: nowrap;
-  text-align: center; }
-.year-timeline-list li > .header > span > em {
-  font-style: normal;
-  font-weight: 900;
-  display: inline-block;
-  margin-left: 0.3em;
-  font-size: 1.12em; }
-.year-timeline-list li > p {
-  font-size: 1.12em; }
-.year-timeline-list li > ul {
-  margin-top: 1em; }
-.year-timeline-list li > ul > li {
-  margin-bottom: 0em; }
-.year-timeline-list li > ul > li > span {
-  font-weight: 700;
-  display: inline-block;
-  min-width: 80px; }
-.year-timeline-list li > ul > li > a {
-  display: inline-block;
-  margin-left: 0.5em;
-  color: #fff; }
-.year-timeline-list li > ul > li:after {
+  top: 7px;
+  width: 6px;
   height: 6px;
-  width: 6px; }
-.year-timeline-list li > ul.role-and-tools > li > span:nth-of-type(1) {
-  font-weight: 600; }
-.year-timeline-list li > ul.role-and-tools > li > span:nth-of-type(2) {
-  font-weight: 100; }
-.year-timeline-list li > ul.role-and-tools > li:after {
-  display: none; }
-.year-timeline-list li > ul.role-and-tools > li {
-  padding-left: 0;
-  margin-bottom: 0.5em; }
-.year-timeline-list li > ul.role-and-tools > li:last-child {
-  margin-bottom: 0; }
-.year-timeline-list li > ul.role-and-tools {
-  margin-bottom: 1em; }
+  border-radius: 50%;
+  background: rgba(44, 44, 44, 0.2);
+}
+
+.list__timeline > li:after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 22px;
+  width: 1px;
+  /* height: calc(100% - 25px); */
+  height: calc(100% - 25px);
+  /* background: #171717; */
+  background: rgba(44, 44, 44, 0.1);
+}
 
 
-@media print {
-  html, body {
-      height: 100%;
-  }
-  .experience-section {
-    height: 100%;
-  }
-}  
+.sidebar__picture {
+  text-align: center;
+}
 
-/*# sourceMappingURL=style.css.map */
+.sidebar__picture img {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 50%;
+  /* dis */
+}
+
+.sidebar__infoblock {
+  padding: 1.25rem 0;
+}
+
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v124/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1n-q_4MrImHCIJIZrDCvHOejbd5zrDAt.woff2) format('woff2');
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+[class^='material__icon'] {
+  font-family: 'Material Symbols Outlined';
+  font-size: 1rem;
+  font-style: normal;
+} 
+
+.material__icon--link:after {
+  content: '\e157';
+}
+
+.material__icon--call:after {
+  content: '\e0b0';
+}
+
+.material__icon--alternate_email:after {
+  content: '\e0e6';
+}
+
+.material__icon--location_on:after {
+  content: '\e0c8';
+}
+
+.material__icon--sell:after {
+  content: '\e892';
+}
+
+.list__acheivements > li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.list__acheivements .list__acheivements__icon {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+.list__acheivements .list__acheivements__content h5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.list__acheivements .list__acheivements__content p {
+  font-size: 0.88rem;
+}
+
+.list__projects--inner {
+  padding: 1rem 0 0 1rem;
+  font-size: 0.88rem 
+}
+
+.list__projects {
+  /* padding-left: ; */
+}
+
+.list__projects > li {
+  margin-bottom: 0.5rem;
+  /* list-style-type: thumbs; */
+  position: relative;
+}
+
+.list__projects > li:before {
+  /* font-family: 'remixicon' !important; */
+  font-family: "font-mfizz";
+  content: "\f15a";
+  left: -20px;
+  top: 4px;
+  position: absolute;
+}
+
+.list__projects > li > a,
+.list__projects > li > span {
+  color: #fff;
+  font-size: 0.88rem;
+}
+
+/* @counter-style thumbs {
+  system: cyclic;
+  symbols: "\eae3";
+  suffix: " ";
+} */
+

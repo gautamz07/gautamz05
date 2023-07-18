@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700");
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }          
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #777;
+  line-height: 1.4; 
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: 'Merriweather', serif;
+  color: #000; }
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+h1 {
+  font-size: 3.12em; }
+
+body > section,
+body > div,
+body > header {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.col-md-4 {
+  width: 33.3333334%; }
+
+.col-md-3 {
+  width: 25%; }
+
+.col-md-8 {
+  width: 66.6666666%; }
+
+.col-md-9 {
+  width: 75%; }
+
+.col-md-4, .col-md-8, .col-md-3, .col-md-9 {
+  float: left; }
+
+.skill-circle {
+  max-width: 250px;
+}
+
+.skill-circle .icon {
+  font-family: "font-mfizz"; }
+
+.skill-circle:before {
+  display: none; }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #777;
+  text-decoration: none;
+  -webkit-transition: all .25s;
+  transition: all .25s; 
+}
+
+.section-header {
+  background: #304153;
+  display: inline-block;
+  padding: 0.5em 3em;
+  margin-bottom: 1.5em; }
+  .section-header h2 {
+    color: #fff;
+    margin-bottom: 0;
+    white-space: nowrap; }
+
+p {
+  margin: 0; }
+
+.line-section-header {
+  margin-bottom: 1.88em; }
+
+.line-section-header > h2 {
+  position: relative;
+  color: #fff;
+  background: #16c0f3;
+  display: inline-block;
+  padding: 0.25em 1.25em; }
+  .line-section-header > h2:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 100px);
+    height: 2px;
+    width: 100vw;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    background: #16c0f3; }
+
+.dotted__list > li {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 0.25rem; }
+  .dotted__list > li:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 6px;
+    width: 6px;
+    background: #fff;
+    border-radius: 50%; }
+
+.site-main-intro-header {
+  background: #f3f3f3;
+  padding: 4em 0; }
+  .site-main-intro-header h1 {
+    margin-bottom: 0; }
+  .site-main-intro-header p {
+    font-size: 1.56em; }
+
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.container:before, .container:after {
+  content: '';
+  display: table; }
+.container:after {
+  clear: both; }
+
+.about-me-section .container > div:nth-of-type(2) {
+  padding-left: 30px; }
+
+.about-me-box dl:before, .about-me-box dl:after {
+  content: '';
+  display: table; }
+.about-me-box dl:after {
+  clear: both; }
+.about-me-box dl > dt,
+.about-me-box dl > dd {
+  float: left;
+  margin-bottom: 0.75em; }
+.about-me-box dl > dd {
+  margin-left: 0.62em; }
+.about-me-box dl > dt {
+  clear: both;
+  min-width: 40px; }
+
+.about-me-content-box {
+  border-top: 2px solid #16c0f3;
+  border-bottom: 2px solid #16c0f3;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+  .about-me-content-box:before, .about-me-content-box:after {
+    content: '';
+    display: table; }
+  .about-me-content-box:after {
+    clear: both; }
+
+.about-me-content-box .img-wrpr {
+  width: 20%; }
+.about-me-content-box .content-wrpr {
+  width: 80%;
+  padding-left: 2em; }
+.about-me-content-box .img-wrpr, .about-me-content-box .content-wrpr {
+  float: left; }
+.about-me-content-box .content-wrpr > p {
+  font-size: 1.35em; }
+.about-me-content-box .img-wrpr > img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-right: 4px solid #16c0f3; }
+
+.experience-section, .achievements-section, .education-section, .more-about-me-section {
+  background: #304153;
+  color: #fff;
+  overflow: hidden; }
+  .experience-section h3, .achievements-section h3, .education-section h3, .more-about-me-section h3 {
+    color: #fff; }
+
+.education-section .year-timeline-list li > .header > span {
+  min-width: 120px; }
+
+.year-timeline-list li {
+  padding-left: 1.88em;
+  margin-bottom: 2em;
+  position: relative; }
+.year-timeline-list li:last-child {
+  margin-bottom: 0; }
+.year-timeline-list li:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border-radius: 50%; }
+.year-timeline-list li > .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 1em; }
+.year-timeline-list li > .header > h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+  min-width: 500px;
+  font-weight: 700; }
+.year-timeline-list li > .header > span {
+  background: #16c0f3;
+  padding: 0.15em 0.5em;
+  min-width: 280px;
+  white-space: nowrap;
+  text-align: center; }
+.year-timeline-list li > .header > span > em {
+  font-style: normal;
+  font-weight: 900;
+  display: inline-block;
+  margin-left: 0.3em;
+  font-size: 1.12em; }
+.year-timeline-list li > p {
+  font-size: 1.12em; }
+.year-timeline-list li > ul {
+  margin-top: 1em; }
+.year-timeline-list li > ul > li {
+  margin-bottom: 0em; }
+.year-timeline-list li > ul > li > span {
+  font-weight: 700;
+  display: inline-block;
+  min-width: 80px; }
+.year-timeline-list li > ul > li > a {
+  display: inline-block;
+  margin-left: 0.5em;
+  color: #fff; }
+.year-timeline-list li > ul > li:after {
+  height: 6px;
+  width: 6px; }
+.year-timeline-list li > ul.role-and-tools > li > span:nth-of-type(1) {
+  font-weight: 600; }
+.year-timeline-list li > ul.role-and-tools > li > span:nth-of-type(2) {
+  font-weight: 100; }
+.year-timeline-list li > ul.role-and-tools > li:after {
+  display: none; }
+.year-timeline-list li > ul.role-and-tools > li {
+  padding-left: 0;
+  margin-bottom: 0.5em; }
+.year-timeline-list li > ul.role-and-tools > li:last-child {
+  margin-bottom: 0; }
+.year-timeline-list li > ul.role-and-tools {
+  margin-bottom: 1em; }
+
+
+@media print {
+  html, body {
+      height: 100%;
+  }
+  .experience-section {
+    height: 100%;
+  }
+}  
+
+/*# sourceMappingURL=style.css.map */

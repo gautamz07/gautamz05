@@ -1,5 +1,20 @@
-      @font-face {
-  font-family: "font-mfizz";
+/*!
+ * Font Mfizz 2.4.1
+ * Copyright 2013-2017 Fizzed, Inc.
+ * MIT License
+ *
+ * Project: http://fizzed.com/oss/font-mfizz
+ *
+ * The font designed for technology and software geeks representing programming
+ * languages, operating systems, software engineering, and technology.
+ *
+ * Fizzed, Inc.
+ * Web: http://fizzed.com/
+ * Twitter: http://twitter.com/fizzed_inc
+ */
+
+@font-face {
+  font-family: "FontMfizz";
   src: url("./font-mfizz.eot");
   src: url("./font-mfizz.eot?#iefix") format("embedded-opentype"),
        url("./font-mfizz.woff") format("woff"),
@@ -11,15 +26,15 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: "font-mfizz";
+    font-family: "FontMfizz";
     src: url("./font-mfizz.svg#font-mfizz") format("svg");
   }
 }
 
-      [data-icon]:before { content: attr(data-icon); }
+[data-icon]:before { content: attr(data-icon); }
 
-      [data-icon]:before,
-      .icon-3dprint:before,
+[data-icon]:before,
+.icon-3dprint:before,
 .icon-alpinelinux:before,
 .icon-angular:before,
 .icon-angular-alt:before,
@@ -156,8 +171,8 @@
 .icon-wireless:before,
 .icon-wordpress:before,
 .icon-x11:before {
-        display: inline-block;
-  font-family: "font-mfizz";
+  display: inline-block;
+  font-family: "FontMfizz";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -168,9 +183,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-      }
+}
 
-      .icon-3dprint:before { content: "\f100"; }
+.icon-3dprint:before { content: "\f100"; }
 .icon-alpinelinux:before { content: "\f101"; }
 .icon-angular:before { content: "\f102"; }
 .icon-angular-alt:before { content: "\f103"; }
