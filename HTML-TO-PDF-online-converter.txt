@@ -1,2 +1,5 @@
 https://www.sodapdf.com/html-to-pdf/
 https://www.sejda.com/html-to-pdf
+
+To Compress a Given PDF :-
+https://www.ilovepdf.com/compress_pdf

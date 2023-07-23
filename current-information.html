@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* @import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700,700i"); */
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+    body {
+      padding: 1.5rem 0;
+      font-family: 'Ubuntu', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 110vh;
+      background: rgb(136,153,214);
+      background: linear-gradient(180deg, rgba(136,153,214,1) 0%, rgba(82,101,164,1) 51%, rgba(34,50,105,1) 100%);
+      background: rgb(238,238,238);
+      background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(244,244,244,1) 35%, rgba(255,255,255,1) 100%);
+    }
+    .custom__list {
+      background: #fff;
+      color: #4E4F50;
+      padding: 1.5rem;
+      box-shadow: 0 0 15px 5px rgba(0,0,0,.05);
+      list-style: none;
+      /* padding: 0; */
+      margin: 0;
+      font-size: 0.88rem;
+      display: table;
+      /* border-collapse: collapse; */
+    }
+
+    .custom__list > li {
+      display: table-row;
+      margin-bottom: 0.5rem;
+      border: rgba(78, 79, 80, 0.5);
+    }
+
+    .updated__time__wrpr {
+      /* font-style: italic; */
+      color: #647C90;
+    }
+
+    .custom__list > li > span {
+      display: table-cell;
+      padding: 0.35rem 0.5rem;
+      margin-right: 1rem;
+      border: rgba(78, 79, 80, 0.1);
+    }
+
+    .custom__list > li > span > a {
+      color: #4E4F50;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+
+    .custom__list > li > span > a:hover,
+    .custom__list > li > span > a:focus {
+      opacity: 0.8;
+    }
+
+    .custom__list > li > span:last-child {
+      text-align: right;
+    }
+
+    .updated__time {
+      /* font-style: italic; */
+      /* font-weight: 700; */
+      /* color: orange; */
+      font-weight: 300;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <ul class="custom__list">
+    <li class="updated__time__wrpr"><span>Last updated on</span><span id="todaystime" class="updated__time">( 1 day ago )</span></li>
+    <li><span>Total Experience in IT</span><span>9+ years</span></li>
+    <li><span>Frontend Experience ( i.e. html | css | javacsript )</span><span>9+ years</span></li>
+    <li><span>HTML/CSS</span><span>9+ years</span></li>
+    <li><span>Javascript</span><span>9+ years</span></li>
+    <li><span>FullStack Experience</span><span>5+ years</span></li>
+    <li><span>React</span><span>7+ years</span></li>
+    <li><span>Nodejs</span><span>5+ years</span></li>
+    <li><span>Nextjs</span><span>1.5+ years</span></li>
+    <li><span>Typescript</span><span>1+ years</span></li>
+    <li><span>Rest API's</span><span>1+ years</span></li>
+    <li><span>Mocha | Jest | Chai ( testing frameworks )</span><span>4+ years</span></li>
+    <li><span>SASS</span><span>7+ years</span></li>
+    <li><span>Database ( Postgres | firebase )</span><span>2+ years</span></li>
+    <li><span>Current CTC</span><span>17.5 LPA (1 LPA variable)</span></li>
+    <li><span>Expected CTC</span><span>25-27 LPA ( Fixed and non-negotiable )</span></li>
+    <li><span>Notice Period</span><span>30 days ( Official and non-negotiable )</span></li>
+    <li><span>Current Serving Notice</span><span>No</span></li>
+    <li><span>Current | Preferred location</span><span>Bangalore ( Any location in bangalore is fine )</span></li>
+    <li><span>Area</span><span>Ramurthi Nagar, Bangalore</span></li>
+    <li><span>Fine with remote | hybrid | WFO ?</span><span>Yes any one is fine</span></li>
+    <li><span>Current Designation</span><span>Senior Software Engineer</span></li>
+    <li><span>Current Organization</span><span>Shopmatic Pvt Ltd</span></li>
+    <li><span>Team handling experience</span><span>1.5 years</span></li>
+    <li><span>Reason for change</span><span>Tech Stack ( Morn modern | updated tech stack )</span></li>
+    <li><span>Resume | More Info</span><span><a href="./index.html">Link ( or please download from naukri )</a></span></li>
+  </ul>
+</body>
+
+<script>
+  function fetchTodaysDate() {
+    const date = new Date();
+    return `${date.getDate() - 1}-${date.getMonth() + 1}-${date.getFullYear()}`
+  }
+
+  const updatedTimeElem = document.getElementById('todaystime')
+
+  updatedTimeElem.innerHTML = fetchTodaysDate() + ' ' + updatedTimeElem.innerText
+</script>
+</html>
