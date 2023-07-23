@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Additional Candidate Information</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
   <style>
     /* @import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700,700i"); */
     /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap'); */
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
     body {
+      position: relative;
       padding: 1.5rem 0;
       font-family: 'Ubuntu', sans-serif;
+      color: #4E4F50;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -20,102 +23,138 @@
       background: rgb(238,238,238);
       background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(244,244,244,1) 35%, rgba(255,255,255,1) 100%);
     }
-    .custom__list {
+
+    /* table start */
+    .custom__table {
       background: #fff;
-      color: #4E4F50;
       padding: 1.5rem;
       box-shadow: 0 0 15px 5px rgba(0,0,0,.05);
       list-style: none;
       /* padding: 0; */
       margin: 0;
       font-size: 0.88rem;
-      display: table;
-      /* border-collapse: collapse; */
+      border-collapse: collapse;
+    }
+    .custom__table,
+    .custom__table > tbody > tr,
+    .custom__table > tbody > tr > td {
+      /* border: rgba(78, 79, 80, 0.5); */
     }
 
-    .custom__list > li {
-      display: table-row;
-      margin-bottom: 0.5rem;
-      border: rgba(78, 79, 80, 0.5);
+    .custom__table > tbody > tr {
+      /* border: 1px solid grey; */
+      border: 1px solid rgba(78, 79, 80, 0.1);
     }
 
+    .custom__table > tbody > tr > td  {
+      padding: 0.75rem 1.5rem;
+      margin-right: 1rem;
+    }
+
+    .custom__table > tbody > tr > td > a {
+      color: #4E4F50;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+
+    .custom__table > tbody > tr > td > a:hover,
+    .custom__table > tbody > tr > td > a:focus {
+      opacity: 0.8;
+    }
+
+    .custom__table > tbody > tr > td:last-child {
+      text-align: right;
+    }
+
+    .updated__time__wrpr,
     .updated__time__wrpr {
       /* font-style: italic; */
       color: #800000;
       font-weight: 500;
     }
 
-    .custom__list > li.updated__time__wrpr > span {
-      padding: 0.35rem 0.5rem 1rem;
+    .updated__time__wrpr > td {
+      padding: 1.5rem !important;
     }
 
-    .custom__list > li > span {
-      display: table-cell;
-      padding: 0.35rem 0.5rem;
-      margin-right: 1rem;
-      border: rgba(78, 79, 80, 0.1);
-    }
-
-    .custom__list > li > span > a {
+    .btn {
+      font-family: 'Ubuntu', sans-serif;
       color: #4E4F50;
-      text-decoration: none;
-      transition: all 0.3s;
+      border: 1px solid #eee;
+      padding: 0.25rem 0.5rem;
+      background: #fff;
     }
 
-    .custom__list > li > span > a:hover,
-    .custom__list > li > span > a:focus {
-      opacity: 0.8;
+    .toast {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      /* margin-left: -75px; */
+      width: 70px;
+      color: #fff;
+      background: #800000;
+      /* border: 1px solid grey; */
+      padding: 0.25rem 1rem;
+      text-align: center;
+      font-size: 0.88rem;
+      top: calc(100vh + 20px);
     }
 
-    .custom__list > li > span:last-child {
-      text-align: right;
+    .toast i {
+      margin-right: 0.25rem;
+      font-size: 1rem;
     }
-
-    .updated__time {
-      /* font-style: italic; */
-      /* font-weight: 700; */
-      /* color: orange; */
-      /* font-weight: 300; */
-    }
+    /* table end */
 
   </style>
 </head>
 <body>
-  
-  <ul class="custom__list">
-    <li class="updated__time__wrpr"><span>Last updated on</span><span id="todaystime" class="updated__time">( 1 day ago )</span></li>
-    <li><span>Total Experience in IT</span><span>9+ years</span></li>
-    <li><span>Frontend Experience ( i.e. html | css | javacsript )</span><span>9+ years</span></li>
-    <li><span>HTML/CSS</span><span>9+ years</span></li>
-    <li><span>Javascript</span><span>9+ years</span></li>
-    <li><span>FullStack Experience</span><span>5+ years</span></li>
-    <li><span>React</span><span>7+ years</span></li>
-    <li><span>Nodejs</span><span>5+ years</span></li>
-    <li><span>Nextjs</span><span>1.5+ years</span></li>
-    <li><span>Typescript</span><span>1+ years</span></li>
-    <li><span>Rest API's</span><span>1+ years</span></li>
-    <li><span>Mocha | Jest | Chai ( testing frameworks )</span><span>4+ years</span></li>
-    <li><span>SASS</span><span>7+ years</span></li>
-    <li><span>Database ( Postgres | firebase )</span><span>2+ years</span></li>
-    <li><span>Current CTC</span><span>17.5 LPA (1 LPA variable)</span></li>
-    <li><span>Expected CTC</span><span>25-27 LPA ( Fixed and non-negotiable )</span></li>
-    <li><span>Notice Period</span><span>30 days ( Official and non-negotiable )</span></li>
-    <li><span>Current Serving Notice</span><span>No</span></li>
-    <li><span>Current | Preferred location</span><span>Bangalore ( Any location in bangalore is fine )</span></li>
-    <li><span>Area</span><span>Ramurthi Nagar, Bangalore</span></li>
-    <li><span>Fine with remote | hybrid | WFO ?</span><span>Yes any one is fine</span></li>
-    <li><span>Current Designation</span><span>Senior Software Engineer</span></li>
-    <li><span>Current Organization</span><span>Shopmatic Pvt Ltd</span></li>
-    <li><span>Team handling experience</span><span>1.5 years</span></li>
-    <li><span>Reason for change</span><span>Tech Stack ( Morn modern | updated tech stack )</span></li>
-    <li><span>Resume | More Info</span><span><a href="./index.html">Link ( or please download from naukri )</a></span></li>
-  </ul>
+  <!-- <span class="toast"><i class="ri-check-line"></i>Text has been Copied</span> -->
+  <table class="custom__table" id="custom__table" onClick="copytable('custom__table')">
+    <tbody>
+      <tr class="updated__time__wrpr"><td>Last updated on</td><td id="todaystime" class="updated__time">( 1 day ago )</td></tr>
+      <tr><td>Copy All details</td><td><button class="btn"><i class="ri-clipboard-line"></i> &nbsp;Copy</button></td></tr>
+      <tr><td>Total Experience in IT</td><td>9+ years</td></tr>
+      <tr><td>Frontend Experience ( i.e. html | css | javacsript )</td><td>9+ years</td></tr>
+      <tr><td>HTML/CSS</td><td>9+ years</td></tr>
+      <tr><td>Javascript</td><td>9+ years</td></tr>
+      <tr><td>FullStack Experience</td><td>5+ years</td></tr>
+      <tr><td>React</td><td>7+ years</td></tr>
+      <tr><td>Nodejs</td><td>5+ years</td></tr>
+      <tr><td>Nextjs</td><td>1.5+ years</td></tr>
+      <tr><td>Typescript</td><td>1+ years</td></tr>
+      <tr><td>Rest API's</td><td>1+ years</td></tr>
+      <tr><td>Mocha | Jest | Chai ( testing frameworks )</td><td>4+ years</td></tr>
+      <tr><td>SASS</td><td>7+ years</td></tr>
+      <tr><td>Database ( Postgres | firebase )</td><td>2+ years</td></tr>
+      <tr><td>Current CTC</td><td>17.5 LPA (1 LPA variable)</td></tr>
+      <tr><td>Expected CTC</td><td>25-27 LPA ( Fixed and non-negotiable )</td></tr>
+      <tr><td>Notice Period</td><td>30 days ( Official and non-negotiable )</td></tr>
+      <tr><td>Current Serving Notice</td><td>No</td></tr>
+      <tr><td>Current | Preferred location</td><td>Bangalore ( Any location in bangalore is fine )</td></tr>
+      <tr><td>Area</td><td>Ramurthi Nagar, Bangalore</td></tr>
+      <tr><td>Fine with remote | hybrid | WFO ?</td><td>Yes any one is fine</td></tr>
+      <tr><td>Current Designation</td><td>Senior Software Engineer</td></tr>
+      <tr><td>Current Organization</td><td>Shopmatic Pvt Ltd</td></tr>
+      <tr><td>Team handling experience</td><td>1.5 years</td></tr>
+      <tr><td>Reason for change</td><td>Tech Stack ( Morn modern | updated tech stack )</td></tr>
+      <tr><td>Resume | More Info</td><td><a href="./index.html">Link ( or please download from naukri )</a></td></tr>
+    </tbody>
+  </table>
 </body>
 
 <script>
   function fetchTodaysDate() {
     const date = new Date();
     return `${date.getDate() - 1}-${date.getMonth() + 1}-${date.getFullYear()}`
+  }
+
+  function copytable(el) {
+    var urlField = document.getElementById(el)   
+    var range = document.createRange()
+    range.selectNode(urlField)
+    // window.getSelection().addRange(range) 
+    document.execCommand('copy')
   }
 
   const updatedTimeElem = document.getElementById('todaystime')
