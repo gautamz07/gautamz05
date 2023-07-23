@@ -78,11 +78,17 @@
     }
 
     .btn {
+      cursor: pointer;
       font-family: 'Ubuntu', sans-serif;
       color: #4E4F50;
       border: 1px solid #eee;
       padding: 0.25rem 0.5rem;
       background: #fff;
+      transition: all 0.3s;
+    }
+
+    .btn:hover {
+      opacity: 0.5;
     }
 
     .toast {
@@ -153,8 +159,9 @@
     var urlField = document.getElementById(el)   
     var range = document.createRange()
     range.selectNode(urlField)
-    // window.getSelection().addRange(range) 
+    window.getSelection().addRange(range) 
     document.execCommand('copy')
+    window.getSelection().empty()
   }
 
   const updatedTimeElem = document.getElementById('todaystime')
