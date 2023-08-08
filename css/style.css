@@ -332,6 +332,11 @@ h1 {
   color: #fa7e33;
 }
 
+.header__small {
+  font-weight: 300;
+  font-size: 0.88rem;
+}
+
 .main__header {
   padding: 0 0 2rem 0;
 }
